@@ -10,4 +10,6 @@ Using computer programming, I can get to the essence of over 1000 patents within
 
 Self-driving cars require several different technologies to work. They need special mechanical components, sensors, and innovative ways to process data, among others. We want to determine what are such technologies using NMF. By plotting changes in patent filing volume for each of these technologies, we will try to make observations as to where things are headed in the field of self-driving cars.
 
+A more readable version of this work is found on my blog
+https://juristechnologist.com/patent-topic-modeling/
  
