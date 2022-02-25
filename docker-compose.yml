@@ -1,0 +1,16 @@
+version: '3'
+x-server-common:
+  &server-common
+  platform: linux/amd64
+  build: ./
+  volumes:
+    - ./src:/home/patents/src
+
+services:
+  patents_master:
+    <<: *server-common
+    ports:
+      - 8880:8888
+    restart: always
+    environment:
+    - JUPYTER_TOKEN=${JUPYTER_PASSWORD}_master

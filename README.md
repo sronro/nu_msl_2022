@@ -1,1 +1,2 @@
-# nu_msl_2022
+# nu_patent_landscape_analysis
+Northwestern Law MSL program
